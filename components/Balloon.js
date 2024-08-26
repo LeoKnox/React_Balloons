@@ -4,7 +4,7 @@ export default Balloon = () => {
   const threadHeight = 50;
 
   return (
-    <div>
+    <div className="balloon">
       <svg viewBox={`0 0 ${balloonWidth} ${balloonHeight + threadHeight}`}>
         <defs>
           <radialGradient
